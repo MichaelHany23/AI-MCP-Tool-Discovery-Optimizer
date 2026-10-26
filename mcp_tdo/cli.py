@@ -20,3 +20,16 @@ def version() -> None:
     from mcp_tdo import __version__
 
     typer.echo(__version__)
+
+
+@app.command()
+def serve(
+    server: str = typer.Argument(..., help="Fixture server name, for example 'crm'."),
+) -> None:
+    """Run one fixture server over MCP stdio."""
+    from mcp_tdo.mcp_servers import SERVER_FACTORIES
+
+    if server not in SERVER_FACTORIES:
+        supported = ", ".join(sorted(SERVER_FACTORIES))
+        raise typer.BadParameter(f"Choose one of: {supported}", param_hint="server")
+    SERVER_FACTORIES[server]().run("stdio")

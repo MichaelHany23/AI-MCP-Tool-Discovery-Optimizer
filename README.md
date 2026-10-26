@@ -3,7 +3,7 @@
 MCP-TDO benchmarks whether AI agents choose the right MCP tool, arguments, and
 call order, then tests whether clearer tool metadata improves those decisions.
 
-> This project is in Phase 0. No benchmark results have been produced yet.
+> Phase 1 is complete. No benchmark results have been produced yet.
 
 ## Phase 0 setup
 
@@ -39,7 +39,38 @@ The implementation follows the phases in
 The metric definitions and evaluation safeguards are documented in
 [docs/methodology.md](./docs/methodology.md).
 
+### Phase 1 so far
+
+The project now includes five small, local MCP servers:
+
+- **Calendar** for events
+- **CRM** for contacts and accounts
+- **Filesystem** using safe in-memory files
+- **Issue tracker** for searching and filtering issues
+- **SQL analytics** using fixed sales rows
+
+They are deliberately deterministic, which means the same task produces the
+same server result every time. Their descriptions also include a few realistic
+ambiguities, such as two tools that both sound like search tools. Those
+ambiguities are the problems the optimizer will later try to fix.
+
+The in-process MCP client uses the real MCP protocol to list tool metadata and
+call tools without a network service or paid API. Every call is saved as a
+trace, including failures, so later scoring can explain what happened.
+
+For integration testing, a fixture can also run over the standard MCP stdio
+transport:
+
+```powershell
+mcp-tdo serve crm
+```
+
+The client uses a configurable timeout, rejects invalid timeout settings, and
+turns MCP error responses into explicit failures. The filesystem fixture is
+fully in memory, so benchmark runs cannot read or modify the real computer.
+The test suite also verifies a slow tool timeout and a complete external stdio
+connection through the standalone server command.
+
 ## License
 
 This project is released under the MIT License. See [LICENSE](./LICENSE).
-
