@@ -33,3 +33,21 @@ def serve(
         supported = ", ".join(sorted(SERVER_FACTORIES))
         raise typer.BadParameter(f"Choose one of: {supported}", param_hint="server")
     SERVER_FACTORIES[server]().run("stdio")
+
+
+@app.command("validate-tasks")
+def validate_tasks_command(
+    path: str = typer.Argument(..., help="Path to a JSON task file."),
+) -> None:
+    """Validate task labels and print counts for each frozen split."""
+    from pathlib import Path
+
+    from mcp_tdo.tasks.loader import validate_tasks
+
+    try:
+        counts = validate_tasks(Path(path), minimum_tasks=1)
+    except (FileNotFoundError, ValueError) as error:
+        raise typer.BadParameter(str(error), param_hint="path") from error
+    typer.echo(f"valid tasks: {sum(counts.values())}")
+    for split, count in counts.items():
+        typer.echo(f"{split}: {count}")

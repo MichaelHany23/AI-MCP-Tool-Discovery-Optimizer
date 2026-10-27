@@ -1,0 +1,7502 @@
+[
+  {
+    "id": "calendar-0000",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 0.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0001",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 1.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0002",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 2.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0003",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 3.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0004",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 4.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0005",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 5.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0006",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 6.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0007",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 7.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0008",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 8.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0009",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 9.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0010",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 10.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0011",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 11.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0012",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 12.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0013",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 13.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0014",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 14.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0015",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 15.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0016",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 16.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0017",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 17.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0018",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 18.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0019",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 19.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0020",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 20.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0021",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 21.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0022",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 22.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0023",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 23.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0024",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 24.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0025",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 25.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0026",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 26.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0027",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 27.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0028",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 28.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0029",
+    "split": "train",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 29.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0030",
+    "split": "dev",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 30.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0031",
+    "split": "dev",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 31.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0032",
+    "split": "dev",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 32.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0033",
+    "split": "dev",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 33.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0034",
+    "split": "dev",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 34.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0035",
+    "split": "dev",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 35.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0036",
+    "split": "dev",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 36.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0037",
+    "split": "dev",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 37.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0038",
+    "split": "dev",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 38.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0039",
+    "split": "dev",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 39.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0040",
+    "split": "dev",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 40.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0041",
+    "split": "dev",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 41.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0042",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 42.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0043",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 43.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0044",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 44.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0045",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 45.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0046",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 46.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0047",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 47.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0048",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 48.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0049",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 49.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0050",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 50.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0051",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 51.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0052",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 52.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0053",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 53.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0054",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 54.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0055",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 55.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0056",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 56.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0057",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 57.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0058",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 58.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "calendar-0059",
+    "split": "test",
+    "server_set": [
+      "calendar"
+    ],
+    "prompt": "Find the calendar event containing project 59.",
+    "gold_calls": [
+      {
+        "tool": "search_events",
+        "args": {
+          "query": "Project"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "list_events"
+    ],
+    "tags": [
+      "calendar",
+      "search"
+    ]
+  },
+  {
+    "id": "crm-0000",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 0.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0001",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 1.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0002",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 2.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0003",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 3.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0004",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 4.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0005",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 5.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0006",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 6.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0007",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 7.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0008",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 8.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0009",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 9.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0010",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 10.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0011",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 11.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0012",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 12.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0013",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 13.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0014",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 14.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0015",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 15.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0016",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 16.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0017",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 17.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0018",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 18.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0019",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 19.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0020",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 20.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0021",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 21.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0022",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 22.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0023",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 23.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0024",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 24.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0025",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 25.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0026",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 26.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0027",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 27.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0028",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 28.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0029",
+    "split": "train",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 29.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0030",
+    "split": "dev",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 30.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0031",
+    "split": "dev",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 31.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0032",
+    "split": "dev",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 32.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0033",
+    "split": "dev",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 33.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0034",
+    "split": "dev",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 34.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0035",
+    "split": "dev",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 35.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0036",
+    "split": "dev",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 36.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0037",
+    "split": "dev",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 37.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0038",
+    "split": "dev",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 38.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0039",
+    "split": "dev",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 39.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0040",
+    "split": "dev",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 40.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0041",
+    "split": "dev",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 41.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0042",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 42.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0043",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 43.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0044",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 44.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0045",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 45.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0046",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 46.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0047",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 47.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0048",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 48.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0049",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 49.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0050",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 50.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0051",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 51.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0052",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 52.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0053",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 53.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0054",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 54.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0055",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 55.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0056",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 56.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0057",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 57.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0058",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 58.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "crm-0059",
+    "split": "test",
+    "server_set": [
+      "crm"
+    ],
+    "prompt": "Find contact Dana at Acme for request 59.",
+    "gold_calls": [
+      {
+        "tool": "find_contact",
+        "args": {
+          "query": "Dana"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "search_accounts"
+    ],
+    "tags": [
+      "crm",
+      "lookup"
+    ]
+  },
+  {
+    "id": "filesystem-0000",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 0.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0001",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 1.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0002",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 2.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0003",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 3.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0004",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 4.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0005",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 5.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0006",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 6.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0007",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 7.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0008",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 8.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0009",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 9.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0010",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 10.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0011",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 11.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0012",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 12.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0013",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 13.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0014",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 14.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0015",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 15.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0016",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 16.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0017",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 17.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0018",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 18.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0019",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 19.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0020",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 20.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0021",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 21.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0022",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 22.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0023",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 23.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0024",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 24.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0025",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 25.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0026",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 26.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0027",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 27.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0028",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 28.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0029",
+    "split": "train",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 29.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0030",
+    "split": "dev",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 30.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0031",
+    "split": "dev",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 31.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0032",
+    "split": "dev",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 32.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0033",
+    "split": "dev",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 33.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0034",
+    "split": "dev",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 34.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0035",
+    "split": "dev",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 35.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0036",
+    "split": "dev",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 36.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0037",
+    "split": "dev",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 37.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0038",
+    "split": "dev",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 38.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0039",
+    "split": "dev",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 39.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0040",
+    "split": "dev",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 40.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0041",
+    "split": "dev",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 41.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0042",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 42.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0043",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 43.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0044",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 44.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0045",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 45.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0046",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 46.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0047",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 47.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0048",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 48.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0049",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 49.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0050",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 50.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0051",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 51.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0052",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 52.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0053",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 53.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0054",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 54.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0055",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 55.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0056",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 56.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0057",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 57.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0058",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 58.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "filesystem-0059",
+    "split": "test",
+    "server_set": [
+      "filesystem"
+    ],
+    "prompt": "Find the planning file for request 59.",
+    "gold_calls": [
+      {
+        "tool": "search_files",
+        "args": {
+          "query": "plan"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "read_file"
+    ],
+    "tags": [
+      "filesystem",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0000",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 0.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0001",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 1.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0002",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 2.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0003",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 3.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0004",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 4.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0005",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 5.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0006",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 6.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0007",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 7.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0008",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 8.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0009",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 9.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0010",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 10.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0011",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 11.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0012",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 12.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0013",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 13.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0014",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 14.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0015",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 15.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0016",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 16.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0017",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 17.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0018",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 18.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0019",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 19.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0020",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 20.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0021",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 21.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0022",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 22.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0023",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 23.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0024",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 24.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0025",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 25.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0026",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 26.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0027",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 27.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0028",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 28.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0029",
+    "split": "train",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 29.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0030",
+    "split": "dev",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 30.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0031",
+    "split": "dev",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 31.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0032",
+    "split": "dev",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 32.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0033",
+    "split": "dev",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 33.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0034",
+    "split": "dev",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 34.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0035",
+    "split": "dev",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 35.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0036",
+    "split": "dev",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 36.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0037",
+    "split": "dev",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 37.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0038",
+    "split": "dev",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 38.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0039",
+    "split": "dev",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 39.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0040",
+    "split": "dev",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 40.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0041",
+    "split": "dev",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 41.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0042",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 42.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0043",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 43.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0044",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 44.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0045",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 45.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0046",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 46.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0047",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 47.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0048",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 48.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0049",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 49.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0050",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 50.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0051",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 51.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0052",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 52.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0053",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 53.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0054",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 54.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0055",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 55.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0056",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 56.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0057",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 57.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0058",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 58.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "issue-tracker-0059",
+    "split": "test",
+    "server_set": [
+      "issue_tracker"
+    ],
+    "prompt": "Search issues mentioning tools for request 59.",
+    "gold_calls": [
+      {
+        "tool": "search_issues",
+        "args": {
+          "query": "tool"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "find_issues"
+    ],
+    "tags": [
+      "issues",
+      "search"
+    ]
+  },
+  {
+    "id": "sql-analytics-0000",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 0.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0001",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 1.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0002",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 2.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0003",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 3.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0004",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 4.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0005",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 5.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0006",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 6.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0007",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 7.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0008",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 8.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0009",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 9.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0010",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 10.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0011",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 11.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0012",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 12.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0013",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 13.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0014",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 14.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0015",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 15.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0016",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 16.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0017",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 17.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0018",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 18.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0019",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 19.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0020",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 20.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0021",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 21.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0022",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 22.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0023",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 23.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0024",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 24.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0025",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 25.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0026",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 26.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0027",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 27.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0028",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 28.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0029",
+    "split": "train",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 29.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0030",
+    "split": "dev",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 30.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0031",
+    "split": "dev",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 31.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0032",
+    "split": "dev",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 32.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0033",
+    "split": "dev",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 33.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0034",
+    "split": "dev",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 34.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0035",
+    "split": "dev",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 35.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0036",
+    "split": "dev",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 36.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0037",
+    "split": "dev",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 37.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0038",
+    "split": "dev",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 38.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0039",
+    "split": "dev",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 39.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0040",
+    "split": "dev",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 40.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0041",
+    "split": "dev",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 41.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0042",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 42.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0043",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 43.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0044",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 44.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0045",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 45.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0046",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 46.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0047",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 47.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0048",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 48.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0049",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 49.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0050",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 50.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0051",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 51.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0052",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 52.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0053",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 53.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0054",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 54.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0055",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 55.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0056",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 56.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0057",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 57.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "easy",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0058",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 58.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "medium",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  },
+  {
+    "id": "sql-analytics-0059",
+    "split": "test",
+    "server_set": [
+      "sql_analytics"
+    ],
+    "prompt": "Show sales rows for September in request 59.",
+    "gold_calls": [
+      {
+        "tool": "query_sales",
+        "args": {
+          "month": "2026-09"
+        }
+      }
+    ],
+    "order": "strict",
+    "difficulty": "hard",
+    "confusable_with": [
+      "sum_revenue"
+    ],
+    "tags": [
+      "analytics",
+      "query"
+    ]
+  }
+]

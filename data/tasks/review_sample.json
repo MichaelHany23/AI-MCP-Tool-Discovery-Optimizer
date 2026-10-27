@@ -1,0 +1,227 @@
+[
+  {
+    "task_id": "calendar-0000",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0001",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0002",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  },
+  {
+    "task_id": "calendar-0003",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0004",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0005",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  },
+  {
+    "task_id": "calendar-0006",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0007",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0008",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  },
+  {
+    "task_id": "calendar-0009",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0010",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0011",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  },
+  {
+    "task_id": "calendar-0012",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0013",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0014",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  },
+  {
+    "task_id": "calendar-0015",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0016",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0017",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  },
+  {
+    "task_id": "calendar-0018",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0019",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0020",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  },
+  {
+    "task_id": "calendar-0021",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0022",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0023",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  },
+  {
+    "task_id": "calendar-0024",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0025",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0026",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  },
+  {
+    "task_id": "calendar-0027",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0028",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0029",
+    "annotator_a": "hard",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0030",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0031",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0032",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  },
+  {
+    "task_id": "calendar-0033",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0034",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0035",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  },
+  {
+    "task_id": "calendar-0036",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0037",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0038",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  },
+  {
+    "task_id": "calendar-0039",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0040",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0041",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  },
+  {
+    "task_id": "calendar-0042",
+    "annotator_a": "easy",
+    "annotator_b": "easy"
+  },
+  {
+    "task_id": "calendar-0043",
+    "annotator_a": "medium",
+    "annotator_b": "medium"
+  },
+  {
+    "task_id": "calendar-0044",
+    "annotator_a": "hard",
+    "annotator_b": "hard"
+  }
+]

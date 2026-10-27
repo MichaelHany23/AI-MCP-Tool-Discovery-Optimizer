@@ -71,6 +71,24 @@ fully in memory, so benchmark runs cannot read or modify the real computer.
 The test suite also verifies a slow tool timeout and a complete external stdio
 connection through the standalone server command.
 
+### Phase 2: tasks and labeling
+
+Phase 2 now includes 300 validated tasks in
+[data/tasks/tasks.json](./data/tasks/tasks.json), distributed across all five
+servers:
+
+- 150 train tasks
+- 60 development tasks
+- 90 sealed test tasks
+
+The split is frozen in [data/splits.json](./data/splits.json), which records the
+seed, task-file SHA-256 hash, split counts, and Cohen's kappa for a 15% review
+sample. Run the validator with:
+
+```powershell
+mcp-tdo validate-tasks data/tasks/tasks.json
+```
+
 ## License
 
 This project is released under the MIT License. See [LICENSE](./LICENSE).

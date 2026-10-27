@@ -1,0 +1,18 @@
+{
+  "seed": 20261026,
+  "content_sha256": "8ffe6ba2403a5301cfb36c4e28c5d267b3cf31496823729784805f48b3a4e54f",
+  "task_count": 300,
+  "split_counts": {
+    "train": 150,
+    "dev": 60,
+    "test": 90
+  },
+  "split_proportions": {
+    "train": 0.5,
+    "dev": 0.2,
+    "test": 0.3
+  },
+  "review_sample_size": 45,
+  "review_sample_fraction": 0.15,
+  "cohens_kappa": 0.9666666666666665
+}
