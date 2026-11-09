@@ -89,6 +89,26 @@ sample. Run the validator with:
 mcp-tdo validate-tasks data/tasks/tasks.json
 ```
 
+### Phase 3: agent runner
+
+Phase 3 lets a local Ollama model work with an MCP server. The runner first
+shows the model the available tools, carries out the calls the model requests,
+and sends each result back so the model can decide what to do next. It stops
+when the model has an answer or reaches the safety limit.
+
+Run one local task without a paid API:
+
+```powershell
+mcp-tdo run "Find Dana at Acme." --model qwen3:8b --server crm --cache-dir .cache\agents
+```
+
+The result includes the model name, selected tools, tool results, stop reason,
+number of steps, latency, token counts, estimated cost, and whether a cached
+provider response was reused. The Ollama adapter uses temperature zero and a
+fixed seed to make local development runs easier to repeat. The cache key
+includes the model, messages, tool schemas, and seed, so changing a tool
+description cannot accidentally reuse an unrelated response.
+
 ## License
 
 This project is released under the MIT License. See [LICENSE](./LICENSE).
