@@ -1,0 +1,4394 @@
+{
+  "train": {
+    "metrics": {
+      "task_count": 150,
+      "tool_selection_accuracy": 0.7333333333333333,
+      "argument_validity_rate": 1.0,
+      "argument_correctness": 1.0,
+      "call_order_score": 0.7333333333333333,
+      "task_success_rate": 0.7333333333333333,
+      "hallucinated_tool_rate": 0.0,
+      "average_calls_per_task": 1.0,
+      "tool_selection_f1_macro": 0.846153846153846
+    },
+    "confusion_matrix": {
+      "find_contact": {
+        "search_accounts": 8,
+        "find_contact": 22
+      },
+      "query_sales": {
+        "sum_revenue": 8,
+        "query_sales": 22
+      },
+      "search_events": {
+        "list_events": 8,
+        "search_events": 22
+      },
+      "search_files": {
+        "read_file": 8,
+        "search_files": 22
+      },
+      "search_issues": {
+        "find_issues": 8,
+        "search_issues": 22
+      }
+    },
+    "top_confusions": [
+      {
+        "gold": "find_contact",
+        "selected": "search_accounts",
+        "count": 8
+      },
+      {
+        "gold": "query_sales",
+        "selected": "sum_revenue",
+        "count": 8
+      },
+      {
+        "gold": "search_events",
+        "selected": "list_events",
+        "count": 8
+      },
+      {
+        "gold": "search_files",
+        "selected": "read_file",
+        "count": 8
+      },
+      {
+        "gold": "search_issues",
+        "selected": "find_issues",
+        "count": 8
+      }
+    ],
+    "tasks": [
+      {
+        "task_id": "calendar-0000",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0001",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0002",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0003",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0004",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0005",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0006",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0007",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0008",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0009",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0010",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0011",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0012",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0013",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0014",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0015",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0016",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0017",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0018",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0019",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0020",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0021",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0022",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0023",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0024",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0025",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0026",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0027",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0028",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0029",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0000",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0001",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0002",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0003",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0004",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0005",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0006",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0007",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0008",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0009",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0010",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0011",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0012",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0013",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0014",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0015",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0016",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0017",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0018",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0019",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0020",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0021",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0022",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0023",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0024",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0025",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0026",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0027",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0028",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0029",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0000",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0001",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0002",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0003",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0004",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0005",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0006",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0007",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0008",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0009",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0010",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0011",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0012",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0013",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0014",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0015",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0016",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0017",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0018",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0019",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0020",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0021",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0022",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0023",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0024",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0025",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0026",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0027",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0028",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0029",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0000",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0001",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0002",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0003",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0004",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0005",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0006",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0007",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0008",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0009",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0010",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0011",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0012",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0013",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0014",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0015",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0016",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0017",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0018",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0019",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0020",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0021",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0022",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0023",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0024",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0025",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0026",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0027",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0028",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0029",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0000",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0001",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0002",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0003",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0004",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0005",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0006",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0007",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0008",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0009",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0010",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0011",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0012",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0013",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0014",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0015",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0016",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0017",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0018",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0019",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0020",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0021",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0022",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0023",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0024",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0025",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0026",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0027",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0028",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0029",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      }
+    ]
+  },
+  "dev": {
+    "metrics": {
+      "task_count": 60,
+      "tool_selection_accuracy": 0.75,
+      "argument_validity_rate": 1.0,
+      "argument_correctness": 1.0,
+      "call_order_score": 0.75,
+      "task_success_rate": 0.75,
+      "hallucinated_tool_rate": 0.0,
+      "average_calls_per_task": 1.0,
+      "tool_selection_f1_macro": 0.8571428571428571
+    },
+    "confusion_matrix": {
+      "find_contact": {
+        "find_contact": 9,
+        "search_accounts": 3
+      },
+      "query_sales": {
+        "query_sales": 9,
+        "sum_revenue": 3
+      },
+      "search_events": {
+        "search_events": 9,
+        "list_events": 3
+      },
+      "search_files": {
+        "search_files": 9,
+        "read_file": 3
+      },
+      "search_issues": {
+        "search_issues": 9,
+        "find_issues": 3
+      }
+    },
+    "top_confusions": [
+      {
+        "gold": "find_contact",
+        "selected": "search_accounts",
+        "count": 3
+      },
+      {
+        "gold": "query_sales",
+        "selected": "sum_revenue",
+        "count": 3
+      },
+      {
+        "gold": "search_events",
+        "selected": "list_events",
+        "count": 3
+      },
+      {
+        "gold": "search_files",
+        "selected": "read_file",
+        "count": 3
+      },
+      {
+        "gold": "search_issues",
+        "selected": "find_issues",
+        "count": 3
+      }
+    ],
+    "tasks": [
+      {
+        "task_id": "calendar-0030",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0031",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0032",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0033",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0034",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0035",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0036",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0037",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0038",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0039",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0040",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0041",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0030",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0031",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0032",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0033",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0034",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0035",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0036",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0037",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0038",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0039",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0040",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0041",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0030",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0031",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0032",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0033",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0034",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0035",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0036",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0037",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0038",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0039",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0040",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0041",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0030",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0031",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0032",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0033",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0034",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0035",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0036",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0037",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0038",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0039",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0040",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0041",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0030",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0031",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0032",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0033",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0034",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0035",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0036",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0037",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0038",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0039",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0040",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0041",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      }
+    ]
+  },
+  "test": {
+    "metrics": {
+      "task_count": 90,
+      "tool_selection_accuracy": 0.7777777777777778,
+      "argument_validity_rate": 1.0,
+      "argument_correctness": 1.0,
+      "call_order_score": 0.7777777777777778,
+      "task_success_rate": 0.7777777777777778,
+      "hallucinated_tool_rate": 0.0,
+      "average_calls_per_task": 1.0,
+      "tool_selection_f1_macro": 0.8750000000000002
+    },
+    "confusion_matrix": {
+      "find_contact": {
+        "find_contact": 14,
+        "search_accounts": 4
+      },
+      "query_sales": {
+        "query_sales": 14,
+        "sum_revenue": 4
+      },
+      "search_events": {
+        "search_events": 14,
+        "list_events": 4
+      },
+      "search_files": {
+        "search_files": 14,
+        "read_file": 4
+      },
+      "search_issues": {
+        "search_issues": 14,
+        "find_issues": 4
+      }
+    },
+    "top_confusions": [
+      {
+        "gold": "find_contact",
+        "selected": "search_accounts",
+        "count": 4
+      },
+      {
+        "gold": "query_sales",
+        "selected": "sum_revenue",
+        "count": 4
+      },
+      {
+        "gold": "search_events",
+        "selected": "list_events",
+        "count": 4
+      },
+      {
+        "gold": "search_files",
+        "selected": "read_file",
+        "count": 4
+      },
+      {
+        "gold": "search_issues",
+        "selected": "find_issues",
+        "count": 4
+      }
+    ],
+    "tasks": [
+      {
+        "task_id": "calendar-0042",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0043",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0044",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0045",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0046",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0047",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0048",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0049",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0050",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0051",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0052",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0053",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0054",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0055",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0056",
+        "selected_tools": [
+          "list_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "calendar-0057",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0058",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "calendar-0059",
+        "selected_tools": [
+          "search_events"
+        ],
+        "gold_tools": [
+          "search_events"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0042",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0043",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0044",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0045",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0046",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0047",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0048",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0049",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0050",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0051",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0052",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0053",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0054",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0055",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0056",
+        "selected_tools": [
+          "search_accounts"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "crm-0057",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0058",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "crm-0059",
+        "selected_tools": [
+          "find_contact"
+        ],
+        "gold_tools": [
+          "find_contact"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0042",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0043",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0044",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0045",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0046",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0047",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0048",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0049",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0050",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0051",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0052",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0053",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0054",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0055",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0056",
+        "selected_tools": [
+          "read_file"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "filesystem-0057",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0058",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "filesystem-0059",
+        "selected_tools": [
+          "search_files"
+        ],
+        "gold_tools": [
+          "search_files"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0042",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0043",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0044",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0045",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0046",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0047",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0048",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0049",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0050",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0051",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0052",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0053",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0054",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0055",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0056",
+        "selected_tools": [
+          "find_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "issue-tracker-0057",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0058",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "issue-tracker-0059",
+        "selected_tools": [
+          "search_issues"
+        ],
+        "gold_tools": [
+          "search_issues"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0042",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0043",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0044",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0045",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0046",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0047",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0048",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0049",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0050",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0051",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0052",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0053",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0054",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0055",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0056",
+        "selected_tools": [
+          "sum_revenue"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": false,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 0.0,
+        "success": false
+      },
+      {
+        "task_id": "sql-analytics-0057",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0058",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      },
+      {
+        "task_id": "sql-analytics-0059",
+        "selected_tools": [
+          "query_sales"
+        ],
+        "gold_tools": [
+          "query_sales"
+        ],
+        "selection_correct": true,
+        "argument_valid": true,
+        "argument_correct": true,
+        "order_score": 1.0,
+        "success": true
+      }
+    ]
+  }
+}

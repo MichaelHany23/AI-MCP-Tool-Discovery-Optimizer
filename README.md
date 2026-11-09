@@ -109,6 +109,24 @@ fixed seed to make local development runs easier to repeat. The cache key
 includes the model, messages, tool schemas, and seed, so changing a tool
 description cannot accidentally reuse an unrelated response.
 
+### Phase 4: scoring and baseline
+
+Phase 4 compares an agent run with the gold calls in the task file. It reports
+tool selection, macro F1, argument validity, argument correctness, call order,
+task success, hallucinated tools, average calls, and a confusion matrix.
+
+The offline baseline can be reproduced with:
+
+```powershell
+python scripts\run_phase4_baseline.py
+```
+
+It writes JSON and Markdown reports under
+[data/reports/](./data/reports/). This first result is a control run, not a
+claim about Qwen or another LLM: it deliberately picks a confusable tool on
+one quarter of eligible tasks so the scoring pipeline can be inspected before
+live model experiments begin.
+
 ## License
 
 This project is released under the MIT License. See [LICENSE](./LICENSE).
