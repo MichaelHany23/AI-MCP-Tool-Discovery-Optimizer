@@ -36,6 +36,9 @@ tracking = [
   "mlflow>=2.21,<3",
   "pyarrow>=19,<21",
 ]
+ui = [
+  "streamlit>=1.57,<2",
+]
 
 [project.scripts]
 mcp-tdo = "mcp_tdo.cli:app"

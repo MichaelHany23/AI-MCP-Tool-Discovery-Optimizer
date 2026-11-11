@@ -127,6 +127,30 @@ claim about Qwen or another LLM: it deliberately picks a confusable tool on
 one quarter of eligible tasks so the scoring pipeline can be inspected before
 live model experiments begin.
 
+### Local gateway dashboard
+
+The project also includes a small Streamlit gateway in
+[ui/app.py](./ui/app.py). It gives a user a browser form for entering a prompt,
+choosing an Ollama model and fixture server, and viewing the answer, selected
+tools, timing, and MCP trace.
+
+Install the optional UI dependency and start it locally:
+
+```powershell
+python -m pip install -e ".[ui]"
+streamlit run ui/app.py
+```
+
+To make it reachable on your local network, use:
+
+```powershell
+streamlit run ui/app.py --server.address 0.0.0.0
+```
+
+This gateway is for local demos. It has no authentication and should not be
+published directly to the public internet without adding authentication,
+request limits, and a server-side policy for allowed tools.
+
 ## License
 
 This project is released under the MIT License. See [LICENSE](./LICENSE).

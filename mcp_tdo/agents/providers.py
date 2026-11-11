@@ -28,7 +28,7 @@ class OllamaProvider:
     def __init__(
         self,
         model: str,
-        base_url: str = "http://localhost:11434",
+        base_url: str = "http://127.0.0.1:11434",
         timeout_seconds: float = 120.0,
         cost_per_1k_tokens: float = 0.0,
     ) -> None:
